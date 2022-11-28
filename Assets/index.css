@@ -1,0 +1,153 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    overflow: hidden;
+}
+.NavBar div {
+    margin-left: 25px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: aliceblue;
+    font-size: 20px;
+}
+.Landing{
+    background-image: url("./landing.svg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    height: 90vh;
+    overflow: hidden;
+}
+
+.logoPortada{
+    width: 15%;
+
+}
+
+.secialMenu{
+    background-color: gray;
+    border-radius: 20px;
+    padding: 10px;
+}
+.TextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+    color: white;
+    margin-top: 15%;
+}
+.Tite1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    color: black;
+}
+.Title2{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+    color: white;
+}
+.Nosotras{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.ImageF{
+    width: 50%;
+}
+.ColumnContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    height: 90vh;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.TextNosotras{
+    width: 80%;
+    padding-right: 10%;
+    font-size: 20px;
+}
+
+.Testimonios{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: max-content;
+    overflow: hidden;
+}
+
+.Row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: max-content;
+    overflow: hidden;
+}
+
+.Comun50{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.OrangeSubtitle{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 0px;
+    color: #FFA500;
+}
+.Color{
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    font-size: 700;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.subMenu{
+    padding: 40px;
+}
+.subMenu div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Comun501{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+    overflow: hidden;
+
+}
+
+.Comun501 form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    overflow: hidden;
+}
